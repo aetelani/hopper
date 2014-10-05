@@ -1,11 +1,16 @@
 apply from: "gradle/vertx.gradle"
 
 dependencies {
-
+    // for groovy vertices
+    //provided "org.codehaus.groovy:groovy-all:$groovyVersion"
+    //provided "io.vertx:lang-groovy:$groovyLangModVersion@jar"
 }
 
 test {
-
+/* Configure which tests are included
+  include 'org/foo/**'
+  exclude 'org/boo/**'
+*/
 }
 
 /*
